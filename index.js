@@ -1,4 +1,4 @@
-module.exports = function (){
-	console.log('Welcome to Git Wolrd!');
-	console.log('Hello, Git');
+module.exports = function (name){
+	console.log('Hello, ' + (name || 'Ralph') + '!');
+	console.log('Welcome to the Git World!');
 }
