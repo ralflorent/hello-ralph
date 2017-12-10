@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Saying hello to git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralflorent/hello-world.git"
+  },
+  "keywords": [
+    "git",
+    "hello-world"
+  ],
+  "author": "Ralph Florent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ralflorent/hello-world/issues"
+  },
+  "homepage": "https://github.com/ralflorent/hello-world#readme"
+}
