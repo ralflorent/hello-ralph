@@ -1,5 +1,8 @@
-# Welcome to Github
+# Welcome
 
-Hello Github!
+Hello Ralph!
 
-This repository is also available on npmjs as a package under the name `hello-ralph`. Excuse the missing information regarding this matter.
+This repository is also available on [npmjs](npmjs) as a package under the name
+`hello-ralph`.
+
+[npmjs]: https://www.npmjs.com/package/hello-ralph

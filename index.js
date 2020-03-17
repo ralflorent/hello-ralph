@@ -1,4 +1,9 @@
+'use strict';
+
+var Namefully = require('namefully').Namefully;
+
 module.exports = function (name){
-	console.log('Hello, ' + (name || 'Ralph') + '!');
-	console.log('Welcome to the Git World!');
+    var n = new Namefully('Ralph Florent');
+	console.log('Hello, ' + (name || n.fn()) + '!');
+	console.log('Welcome to the JS world!');
 }

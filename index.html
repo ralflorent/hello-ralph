@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Ralph</title>
+    <script src="node_modules/namefully/dist/umd/namefully.min.js"></script>
+</head>
+<body>
+    <div style="text-align: center;" >
+        <h1 id="name"></h1>
+        <h2> Welcome to the JS world!</h2>
+    </div>
+    <script>
+        const elRef = document.getElementById('name')
+        const name = new namefully.Namefully('Ralph Florent')
+        elRef.innerHTML = `Hello, ${name.fn()}!` // first name
+    </script>
+</body>
+</html>

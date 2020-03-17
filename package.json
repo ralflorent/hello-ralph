@@ -1,7 +1,7 @@
 {
   "name": "hello-ralph",
   "version": "1.0.1",
-  "description": "Saying hello to git",
+  "description": "Saying hello to Ralph",
   "main": "index.js",
   "scripts": {
 	"start": "node test.js",
@@ -9,16 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ralflorent/hello-world.git"
+    "url": "git+https://github.com/ralflorent/hello-ralph.git"
   },
   "keywords": [
     "git",
-    "hello-world"
+    "hello-ralph"
   ],
   "author": "Ralph Florent",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ralflorent/hello-world/issues"
+    "url": "https://github.com/ralflorent/hello-ralph/issues"
   },
-  "homepage": "https://github.com/ralflorent/hello-world#readme"
+  "homepage": "https://github.com/ralflorent/hello-ralph#readme",
+  "dependencies": {
+    "namefully": "^1.0.5"
+  }
 }
