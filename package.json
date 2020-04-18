@@ -1,6 +1,6 @@
 {
   "name": "hello-ralph",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Saying hello to Ralph",
   "main": "index.js",
   "scripts": {
