@@ -1,9 +1,9 @@
-'use strict';
+'use strict'
 
-var Namefully = require('namefully').Namefully;
+const { Namefully } = require('namefully')
 
-module.exports = function (name){
-    var n = new Namefully('Ralph Florent');
-	console.log('Hello, ' + (name || n.fn()) + '!');
-	console.log('Welcome to the JS world!');
+module.exports = name => {
+    const n = new Namefully(name || 'Ralph Florent')
+	console.log(`Hello, ${n.fn()}!`)
+	console.log('Welcome to the JS world!')
 }
