@@ -2,6 +2,7 @@
   "name": "hello-ralph",
   "version": "1.0.4",
   "description": "Saying hello to Ralph",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "main": "index.js",
   "scripts": {
     "start": "node test.js",
@@ -22,7 +23,7 @@
   },
   "homepage": "https://github.com/ralflorent/hello-ralph#readme",
   "dependencies": {
-    "namefully": "^1.0.8"
+    "namefully": "^1.0.9"
   },
   "devDependencies": {
     "tslib": "^1.11.1"
