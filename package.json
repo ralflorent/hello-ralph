@@ -1,8 +1,10 @@
 {
   "name": "hello-ralph",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Saying hello to Ralph",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node test.js",
