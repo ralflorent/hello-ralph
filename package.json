@@ -3,7 +3,7 @@
   "version": "1.0.5",
   "description": "Saying hello to Ralph",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/ralflorent"
   },
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ralflorent/hello-ralph.git"
+    "url": "git://github.com/ralflorent/hello-ralph.git"
   },
   "keywords": [
     "git",
